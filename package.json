@@ -1,0 +1,13 @@
+{
+  "name": "ruter",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./server"
+  },
+  "dependencies": {
+    "axios": "0.16.1",
+    "body-parser": "1.17.1",
+    "express": "4.15.2"
+  }
+}
