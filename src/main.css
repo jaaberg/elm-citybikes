@@ -1,12 +1,31 @@
 body {
   font-family: 'Source Sans Pro', 'Trebuchet MS', 'Lucida Grande', 'Bitstream Vera Sans', 'Helvetica Neue', sans-serif;
-  font-size: 30px;
   margin: 0;
-  text-align: center;
   color: #293c4b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-img {
-  margin: 20px 0;
-  max-width: 200px;
+.header {
+  color: #1a2930;
+  padding-bottom: 15px;
+  font-size: 30px;
+}
+
+.header__border {
+  border-bottom: #f7ce3e 10px solid;
+}
+
+.content {
+  font-size: 24px;
+}
+
+.city-bike-station {
+  margin: 40px 0;
+}
+
+.city-bike-station--departure-time {
+  float: right;
+  margin-left: 15px;
 }
